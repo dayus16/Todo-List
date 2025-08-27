@@ -52,7 +52,7 @@ export default function Todo() {
           className="flex items-center w-2xl m-auto mt-10 px-4 gap-2"
         >
           <input
-            className="lg:w-full py-2 px-2 border border-solid border-blue-200 outline-none rounded"
+            className="lg:w-full w-full py-2 px-2 border border-solid border-blue-200 outline-none rounded"
             onChange={(e) => setInput({ name: e.target.value, done: false })}
             type="text"
             placeholder="Add your task"
